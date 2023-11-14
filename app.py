@@ -3,8 +3,7 @@ import logging
 from aiogram import executor
 
 from bot import dp
-import handlers
-import keyboards
+import middlewares, handlers, keyboards
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
